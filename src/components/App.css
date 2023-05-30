@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.delete-all-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 200px;
+
+}
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+  
+
+  
